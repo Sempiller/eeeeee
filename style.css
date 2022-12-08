@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    color: white;
+
+}
+
+body {
+
+    background: linear-gradient(-45deg, black, black, grey, orange);
+
+	height: 110vh;
+}
+
+@keyframes gradient {
+
+	0% {
+
+		background-position: 0% 50%;
+
+	}
+
+	50% {
+
+		background-position: 100% 50%;
+
+	}
+
+	100% {
+
+		background-position: 0% 50%;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.key {
+ 
+
+     background: linear-gradient(-120deg, #252525,#242424, #282828, #171717, #111111);
+
+
+	background-size: 400% 400%;
+
+	animation: gege 15s ease infinite;
+
+	
+
+}
+
+
+.bot {
+  height:70px;
+  width:340px;
+  border-radius:15px;
+  color:white;
+ font-weight:bold;
+}
+
+ 
+
+
+
+.glass-box {
+  color:purple;
+  
+ 
+}
+
+.nav-link2,
+.navbar-brand2 {
+  transition: 0.2s !important;
+  color:white;
+  margin-left:230px;
+}
+
+.nav-link2:hover,
+.navbar-brand2:hover {
+  
+  transition: 0.2s !important;
+}
+
+
+.button:active {
+    background-color: red;
+}
+
+.nav-link2 {
+}
+
+
+
+
